@@ -1,0 +1,51 @@
+═══════════════════════════════════════════════════════════════
+🔐 PASSWORD GENERATOR - GITHUB HOSTING QUICK REFERENCE
+═══════════════════════════════════════════════════════════════
+
+📋 STEP-BY-STEP CHECKLIST:
+
+□ 1. CREATE GITHUB REPOSITORY
+   • Go to github.com
+   • Click "+" → "New repository"  
+   • Name: password-generator
+   • Public repository
+   • DON'T add README (we have files)
+
+□ 2. COPY REPOSITORY URL
+   • After creating, copy the URL like:
+   • https://github.com/YOUR_USERNAME/password-generator.git
+
+□ 3. RUN THESE COMMANDS IN POWERSHELL:
+   
+   cd "d:\dell laptop files\facets.cloud"
+   
+   git remote add origin https://github.com/YOUR_USERNAME/password-generator.git
+   
+   git branch -M main
+   
+   git push -u origin main
+
+□ 4. ENABLE GITHUB PAGES
+   • Go to repository Settings → Pages
+   • Source: Deploy from branch
+   • Branch: main
+   • Save
+
+□ 5. GET YOUR LIVE URL
+   • https://YOUR_USERNAME.github.io/password-generator
+   • Wait 2-5 minutes for deployment
+
+═══════════════════════════════════════════════════════════════
+🎯 WHAT YOU'LL HAVE:
+• Live website for your assignment
+• GitHub repository to share
+• Professional portfolio piece
+═══════════════════════════════════════════════════════════════
+
+💡 TIPS:
+• Replace YOUR_USERNAME with your actual GitHub username
+• Make sure repository is PUBLIC (required for free Pages)
+• Be patient - deployment takes a few minutes
+• Test the live site before submitting
+
+🚨 NEED HELP? Check GITHUB_HOSTING_GUIDE.md for detailed instructions!
