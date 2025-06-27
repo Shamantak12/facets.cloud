@@ -160,11 +160,6 @@ password-generator/
 ## 📄 License
 MIT License - feel free to use this project for learning and development.
 
-## 👨‍💻 Author
-**[Your Name]**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
 
 ## 🙏 Acknowledgments
 - Font Awesome for icons
