@@ -3,7 +3,7 @@
 A modern, responsive password generator web application built with HTML, CSS, and JavaScript.
 
 ## 🔗 Live Demo
-[View Live Demo](https://your-username.github.io/password-generator)
+[View Live Demo](https://shamantak12.github.io/facets.cloud/)
 
 ## 📱 Features
 
