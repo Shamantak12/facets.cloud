@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator - Facets Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4facfe">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <i class="fas fa-shield-alt"></i>
+            <h1>Password Generator</h1>
+            <p>Create secure passwords with customizable options</p>
+        </div>
+        
+        <div class="generator-card">
+            <div class="form-group">
+                <label for="passwordLength">Password Length</label>
+                <div class="length-container">
+                    <input type="range" id="passwordLength" min="4" max="50" value="12" class="slider">
+                    <span id="lengthValue" class="length-display">12</span>
+                </div>
+            </div>
+            
+            <div class="options-grid">
+                <div class="option-item">
+                    <input type="checkbox" id="includeAlphabets" checked>
+                    <label for="includeAlphabets">
+                        <i class="fas fa-font"></i>
+                        Include Alphabets (A-Z, a-z)
+                    </label>
+                </div>
+                
+                <div class="option-item">
+                    <input type="checkbox" id="includeNumbers">
+                    <label for="includeNumbers">
+                        <i class="fas fa-hashtag"></i>
+                        Include Numbers (0-9)
+                    </label>
+                </div>
+                
+                <div class="option-item">
+                    <input type="checkbox" id="includeSymbols">
+                    <label for="includeSymbols">
+                        <i class="fas fa-at"></i>
+                        Include Symbols (!@#$%^&*)
+                    </label>
+                </div>
+            </div>
+            
+            <button id="generateBtn" class="generate-btn">
+                <i class="fas fa-refresh"></i>
+                Generate Password
+            </button>
+            
+            <div class="result-container" id="resultContainer" style="display: none;">
+                <label>Generated Password</label>
+                <div class="password-display">
+                    <input type="text" id="generatedPassword" readonly>
+                    <button id="copyBtn" class="copy-btn" title="Copy to clipboard">
+                        <i class="fas fa-copy"></i>
+                    </button>
+                </div>
+                <div class="password-strength" id="passwordStrength"></div>
+            </div>
+            
+            <div class="error-message" id="errorMessage" style="display: none;">
+                Please select at least one character type!
+            </div>
+        </div>
+        
+        <div class="info-section">
+            <h3>Password Strength Guidelines</h3>
+            <ul>
+                <li><strong>Weak:</strong> Less than 8 characters or limited character types</li>
+                <li><strong>Medium:</strong> 8-12 characters with mixed types</li>
+                <li><strong>Strong:</strong> 13+ characters with all character types</li>
+            </ul>
+        </div>
+        
+        <footer>
+            <p>Built for Facets Cloud Screening Assignment</p>
+            <p>Created by: [Your Name] | <a href="https://github.com/yourusername/password-generator" target="_blank">View on GitHub</a></p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

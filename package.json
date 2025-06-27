@@ -1,0 +1,50 @@
+{
+  "name": "password-generator-facets",
+  "version": "1.0.0",
+  "description": "A secure password generator with customizable options - Built for Facets Cloud screening assignment",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "deploy:surge": "surge . password-generator-facets.surge.sh",
+    "deploy:vercel": "vercel --prod",
+    "test": "echo \"Manual testing required. See TESTING.md for test cases.\"",
+    "validate": "html-validate index.html && stylelint styles.css && eslint script.js"
+  },
+  "keywords": [
+    "password",
+    "generator", 
+    "security",
+    "javascript",
+    "html",
+    "css",
+    "facets",
+    "assignment",
+    "web-app"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "url": "https://github.com/your-username"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/password-generator.git"
+  },
+  "homepage": "https://your-username.github.io/password-generator",
+  "bugs": {
+    "url": "https://github.com/your-username/password-generator/issues"
+  },
+  "devDependencies": {
+    "html-validate": "^7.0.0",
+    "stylelint": "^15.0.0",
+    "eslint": "^8.0.0",
+    "serve": "^14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
