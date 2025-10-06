@@ -11,7 +11,7 @@ class PasswordGenerator {
     bindEvents() {
         const lengthSlider = document.getElementById('passwordLength');
         const generateBtn = document.getElementById('generateBtn');
-        
+        const copyBtn = document.getElementById('copyBtn');
 
         // Update length display when slider changes
         lengthSlider.addEventListener('input', () => this.updateLengthDisplay());
